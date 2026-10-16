@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+/.env
+/public/assets/tailwind.css
+/storage/*.key
+/storage/logs/*
+/storage/framework/*/*
+/bootstrap/cache/*.php
+/database/*.sqlite
+/.phpunit.cache
+
+/_qa-output/
+/.phpunit.result.cache
+/.superpowers/

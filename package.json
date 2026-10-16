@@ -1,0 +1,13 @@
+{
+  "name": "siakad",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tailwindcss -i ./resources/css/tailwind.css -o ./public/assets/tailwind.css --minify",
+    "watch": "tailwindcss -i ./resources/css/tailwind.css -o ./public/assets/tailwind.css --watch",
+    "postbuild": "node scripts/copy-assets.mjs"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}

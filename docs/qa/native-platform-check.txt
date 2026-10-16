@@ -1,0 +1,17 @@
+PASS PHP 8.4.24; memerlukan PHP 8.3 atau lebih baru dalam seri 8.x.
+PASS Ekstensi ctype.
+FAIL Ekstensi curl.
+FAIL Ekstensi dom.
+PASS Ekstensi fileinfo.
+PASS Ekstensi filter.
+PASS Ekstensi hash.
+FAIL Ekstensi mbstring.
+PASS Ekstensi openssl.
+PASS Ekstensi pcre.
+PASS Ekstensi PDO.
+PASS Ekstensi session.
+PASS Ekstensi tokenizer.
+FAIL Ekstensi xml.
+FAIL Ekstensi xmlwriter.
+FAIL Driver PDO native untuk mysql.
+PLATFORM_EXIT=1

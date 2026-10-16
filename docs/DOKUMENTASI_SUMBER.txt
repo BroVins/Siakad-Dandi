@@ -1,0 +1,13 @@
+Paket ini merupakan revisi terhadap siakad (2).zip yang diberikan pengguna.
+Source, composer.lock, package-lock.json dan vendor awal menjadi dasar audit.
+Tidak ada klaim verifikasi jurnal, dataset kampus, atau integrasi eksternal.
+
+Dokumen sumber operasional paket revisi:
+- README.md: quick start, alur, status kandidat staging.
+- CHANGELOG.md: perubahan yang diterapkan.
+- docs/DEPLOYMENT.md: instalasi, upgrade, gerbang staging, batas operasi.
+- docs/PENGUJIAN.md dan docs/qa/: bukti QA serta keterbatasan runtime.
+- docs/CAKUPAN.md dan docs/ARSITEKTUR.md: pemetaan fitur dan invariant.
+
+Nomor versi dependensi adalah versi lock pada paket, bukan jaminan keamanan.
+Audit CVE/dependensi terbaru harus dijalankan saat deployment.

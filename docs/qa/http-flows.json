@@ -1,0 +1,62 @@
+{
+  "runtime": "requests HTTP client; real Laravel web routes, CSRF and file sessions; system SQLite via QA-only FFI PDO adapter; not browser end-to-end",
+  "results": [
+    {
+      "name": "Login melalui HTTP nyata, token CSRF, dan sesi cookie",
+      "passed": true
+    },
+    {
+      "name": "Biodata kontak persisten setelah reload",
+      "passed": true
+    },
+    {
+      "name": "Roadmap rekomendasi kelas diajukan ke PA",
+      "passed": true
+    },
+    {
+      "name": "PA membuka dan menyetujui roadmap",
+      "passed": true
+    },
+    {
+      "name": "KRS simpan draft, ajukan, tarik, dan ajukan ulang memakai formulir HTML",
+      "passed": true
+    },
+    {
+      "name": "KRS final mengisi jadwal mahasiswa dan dokumen cetak",
+      "passed": true
+    },
+    {
+      "name": "Nilai publikasi, edit tanpa unpublish, presensi edit, dan hasil pada mahasiswa",
+      "passed": true
+    },
+    {
+      "name": "Tagihan, pelunasan nominal pecahan, dan kuitansi mahasiswa",
+      "passed": true
+    },
+    {
+      "name": "Catatan bimbingan dan umpan balik lintas peran",
+      "passed": true
+    },
+    {
+      "name": "Admin create, update, dan delete master melalui action formulir",
+      "passed": true
+    },
+    {
+      "name": "Perubahan tanpa token CSRF ditolak dan sesi tetap aktif",
+      "passed": true
+    },
+    {
+      "name": "Header anti-cache privat dan anti-framing pada HTTP",
+      "passed": true
+    },
+    {
+      "name": "Ganti kata sandi, sesi aktif bertahan, logout, lalu login dengan sandi baru",
+      "passed": true
+    },
+    {
+      "name": "Tidak ada respons HTTP 5xx selama skenario",
+      "passed": true
+    }
+  ],
+  "http_5xx": []
+}

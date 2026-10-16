@@ -1,0 +1,3 @@
+@extends('layouts.app')
+@section('title','Kelas Mengajar')
+@section('content')<div class="page-heading"><div><h1>Kelas Mengajar</h1><p>Kelola nilai dan presensi untuk kelas yang Anda ampu.</p></div></div><section class="panel"><div class="table-wrap"><table><thead><tr><th>Mata kuliah</th><th>Kelas</th><th>Semester</th><th>Jadwal</th><th>Aksi</th></tr></thead><tbody>@forelse($classes as $c)<tr><td>{{ $c->mataKuliah->nama }}</td><td>{{ $c->nama }}</td><td>{{ $c->term->nama }}</td><td>{{ $c->hari }} {{ substr($c->mulai,0,5) }}</td><td><a class="btn secondary small" href="{{ route('teaching.show',$c) }}">Nilai & presensi</a></td></tr> @empty<tr><td colspan="5" class="empty">Belum ada penugasan kelas.</td></tr> @endforelse</tbody></table></div></section> @endsection

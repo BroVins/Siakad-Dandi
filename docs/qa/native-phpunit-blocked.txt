@@ -1,0 +1,2 @@
+PHPUnit requires the "dom", "filter", "json", "libxml", "mbstring", "tokenizer", "xmlwriter" extensions, but the "dom", "mbstring", "xmlwriter" extensions are not available.
+PHPUNIT_EXIT=1

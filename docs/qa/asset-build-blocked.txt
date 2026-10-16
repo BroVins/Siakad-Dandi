@@ -1,0 +1,6 @@
+
+> build
+> tailwindcss -i ./resources/css/tailwind.css -o ./public/assets/tailwind.css --minify
+
+sh: 1: tailwindcss: not found
+BUILD_EXIT=127

@@ -1,0 +1,46 @@
+{
+  "runtime": "Chromium via Playwright set_content on actual server-rendered HTML; embedded local CSS/JS; browser navigation blocked by policy. Not a live browser E2E test.",
+  "results": [
+    {
+      "name": "Render dokumen KRS final desktop 1440px",
+      "passed": true
+    },
+    {
+      "name": "JavaScript penghitung SKS mengikuti checkbox pilih dan batal",
+      "passed": true
+    },
+    {
+      "name": "Navigasi mobile, menu akademik, Escape, dan atribut aksesibilitas",
+      "passed": true
+    },
+    {
+      "name": "Render KRS mobile 390px tanpa overflow halaman",
+      "passed": true
+    },
+    {
+      "name": "Render planner mobile 390px tanpa overflow halaman",
+      "passed": true
+    },
+    {
+      "name": "Dialog hapus hanya terbuka saat diminta dan dapat dibatalkan",
+      "passed": true
+    },
+    {
+      "name": "Pemberitahuan sukses dapat ditutup",
+      "passed": true
+    },
+    {
+      "name": "Tombol cetak memanggil API print browser (tanpa membuka dialog sistem)",
+      "passed": true
+    },
+    {
+      "name": "Penjagaan submit ganda mempertahankan action tombol yang diklik",
+      "passed": true
+    },
+    {
+      "name": "Tidak ada exception JavaScript selama uji DOM terpisah",
+      "passed": true
+    }
+  ],
+  "javascript_errors": []
+}

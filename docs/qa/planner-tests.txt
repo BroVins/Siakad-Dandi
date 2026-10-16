@@ -1,0 +1,17 @@
+PASS: Prasyarat harus lulus pada semester sebelumnya
+PASS: Target yang memenuhi prasyarat dinilai feasible
+PASS: Paritas semester ganjil/genap dipertahankan
+PASS: Batas SKS dan target tidak realistis terdeteksi
+PASS: Semester aktif hanya memakai mata kuliah yang ditawarkan
+PASS: Mata kuliah lulus tidak direkomendasikan ulang
+PASS: Siklus prasyarat tidak menyebabkan loop tak berujung
+PASS: Prasyarat di luar kurikulum dilaporkan
+PASS: Wajib didahulukan daripada pilihan
+PASS: Pilihan berhenti ketika kebutuhan SKS terpenuhi
+PASS: Batas konservatif semester mendatang diterapkan
+PASS: Mahasiswa yang memenuhi semua mata kuliah tidak diberi duplikasi
+PASS: Paritas mengikuti periode aktif, bukan nomor semester mahasiswa
+PASS: Kurikulum demo 144 SKS selesai dalam delapan semester
+PASS: KRS submitted/final menjadi acuan tetap untuk semester berjalan
+
+15 tests passed.

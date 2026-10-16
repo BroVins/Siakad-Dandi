@@ -1,0 +1,15 @@
+SIAKAD - PAKET REVISI 16 OKTOBER 2026
+
+1. Baca README.md dan docs/PENGUJIAN.md sebelum menganggap paket siap produksi.
+2. Lokal: composer install; php scripts/check-platform.php sqlite;
+   php scripts/setup.php --demo; php artisan serve.
+3. Produksi: ikuti docs/DEPLOYMENT.md, buat database dan admin pribadi,
+   gunakan HTTPS, SMTP nyata, APP_DEBUG=false, dan root web public/.
+4. .env asli, database, sesi, log, cache runtime, serta kredensial pribadi
+   tidak disertakan. Jangan mengganti APP_KEY pada instalasi lama.
+5. Hasil QA memakai SQLite FFI khusus pengujian karena PDO native tidak
+   tersedia di lingkungan pengerjaan. HTTP dan DOM diuji terpisah.
+   PHPUnit native/MySQL, konkurensi, SMTP, build bersih, audit dependensi,
+   serta browser end-to-end di staging masih menjadi syarat go-live.
+6. vendor/ dan aset awal disertakan; jangan mengekspos root proyek ke web.
+7. SHA256SUMS berisi checksum file paket, tidak termasuk dirinya sendiri.

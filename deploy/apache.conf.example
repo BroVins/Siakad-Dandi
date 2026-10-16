@@ -1,0 +1,13 @@
+# Requires mod_rewrite and a configured PHP handler. Add TLS separately.
+<VirtualHost *:80>
+    ServerName siakad.domain-kampus.ac.id
+    DocumentRoot /var/www/siakad/public
+    <Directory /var/www/siakad/public>
+        Options -Indexes -MultiViews
+        AllowOverride All
+        Require all granted
+    </Directory>
+    <FilesMatch "^\.">
+        Require all denied
+    </FilesMatch>
+</VirtualHost>

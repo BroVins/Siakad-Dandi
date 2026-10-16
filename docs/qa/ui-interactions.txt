@@ -1,0 +1,11 @@
+PASS Render dokumen KRS final desktop 1440px
+PASS JavaScript penghitung SKS mengikuti checkbox pilih dan batal
+PASS Navigasi mobile, menu akademik, Escape, dan atribut aksesibilitas
+PASS Render KRS mobile 390px tanpa overflow halaman
+PASS Render planner mobile 390px tanpa overflow halaman
+PASS Dialog hapus hanya terbuka saat diminta dan dapat dibatalkan
+PASS Pemberitahuan sukses dapat ditutup
+PASS Tombol cetak memanggil API print browser (tanpa membuka dialog sistem)
+PASS Penjagaan submit ganda mempertahankan action tombol yang diklik
+PASS Tidak ada exception JavaScript selama uji DOM terpisah
+UI checks 10 failures 0

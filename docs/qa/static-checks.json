@@ -1,0 +1,89 @@
+{
+  "php_lint": {
+    "passed": true,
+    "files": 93,
+    "errors": []
+  },
+  "native_blade_compiler_and_route_config_export": {
+    "passed": true,
+    "blade_views": 26,
+    "routes": 50,
+    "named_routes": 45,
+    "missing_literal_view_routes": [],
+    "compiled_php_errors": [],
+    "note": "Laravel compiler, route serialization/compile and config export; not a production cached boot or native Artisan cache command."
+  },
+  "syntax:resources/js/app.js": {
+    "passed": true,
+    "exit_code": 0,
+    "output": ""
+  },
+  "syntax:public/assets/app.js": {
+    "passed": true,
+    "exit_code": 0,
+    "output": ""
+  },
+  "syntax:scripts/copy-assets.mjs": {
+    "passed": true,
+    "exit_code": 0,
+    "output": ""
+  },
+  "syntax:tailwind.config.js": {
+    "passed": true,
+    "exit_code": 0,
+    "output": ""
+  },
+  "bash_install_syntax": {
+    "passed": true,
+    "exit_code": 0,
+    "output": ""
+  },
+  "json:composer.json": {
+    "passed": true
+  },
+  "json:composer.lock": {
+    "passed": true
+  },
+  "json:package.json": {
+    "passed": true
+  },
+  "json:package-lock.json": {
+    "passed": true
+  },
+  "xml:phpunit.xml": {
+    "passed": true
+  },
+  "xml:phpunit.mysql.xml": {
+    "passed": true
+  },
+  "workflow_yaml": {
+    "passed": true,
+    "note": "Syntax only; CI not executed."
+  },
+  "asset_parity:app.js": {
+    "passed": true,
+    "sha256": "5c129bd698ff52a4a70fe1aead85f75ee13a28ac8c1b9b4770c3b5008f6942c0"
+  },
+  "asset_parity:app.css": {
+    "passed": true,
+    "sha256": "cba5ff012dd590c68a296be66beba1d8e8055be572519b6c6b851951d68b3cc0"
+  },
+  "original_vendor_integrity": {
+    "passed": true,
+    "files": 8483,
+    "differences": []
+  },
+  "unchanged_dependency_locks_and_tailwind": {
+    "passed": true,
+    "files": {
+      "composer.lock": true,
+      "package-lock.json": true,
+      "public/assets/tailwind.css": true,
+      "resources/css/tailwind.css": true
+    }
+  },
+  "overall": {
+    "passed": true,
+    "failed_checks": []
+  }
+}

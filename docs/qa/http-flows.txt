@@ -1,0 +1,15 @@
+PASS Login melalui HTTP nyata, token CSRF, dan sesi cookie
+PASS Biodata kontak persisten setelah reload
+PASS Roadmap rekomendasi kelas diajukan ke PA
+PASS PA membuka dan menyetujui roadmap
+PASS KRS simpan draft, ajukan, tarik, dan ajukan ulang memakai formulir HTML
+PASS KRS final mengisi jadwal mahasiswa dan dokumen cetak
+PASS Nilai publikasi, edit tanpa unpublish, presensi edit, dan hasil pada mahasiswa
+PASS Tagihan, pelunasan nominal pecahan, dan kuitansi mahasiswa
+PASS Catatan bimbingan dan umpan balik lintas peran
+PASS Admin create, update, dan delete master melalui action formulir
+PASS Perubahan tanpa token CSRF ditolak dan sesi tetap aktif
+PASS Header anti-cache privat dan anti-framing pada HTTP
+PASS Ganti kata sandi, sesi aktif bertahan, logout, lalu login dengan sandi baru
+PASS Tidak ada respons HTTP 5xx selama skenario
+HTTP checks 14 failures 0

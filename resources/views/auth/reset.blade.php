@@ -1,0 +1,3 @@
+@extends('layouts.auth')
+@section('title','Kata sandi baru')
+@section('content')<h2>Buat kata sandi baru</h2><form class="form-stack" method="post" action="{{ route('password.update') }}">@csrf<input type="hidden" name="token" value="{{ $token }}"><label>Email<input type="email" name="email" required value="{{ old('email',request('email')) }}" autocomplete="email"></label><label>Kata sandi baru<input type="password" name="password" minlength="12" required autocomplete="new-password"><small>Minimal 12 karakter.</small></label><label>Konfirmasi kata sandi<input type="password" name="password_confirmation" minlength="12" required autocomplete="new-password"></label><button class="btn">Simpan kata sandi</button></form> @endsection
